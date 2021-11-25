@@ -1,0 +1,58 @@
+{
+  "fileCounts": {},
+  "anys": [
+    {
+      "file": "src/app/app.component.ts",
+      "line": 41,
+      "character": 12,
+      "text": "name",
+      "kind": 1
+    },
+    {
+      "file": "src/app/app.component.ts",
+      "line": 41,
+      "character": 18,
+      "text": "value",
+      "kind": 1
+    },
+    {
+      "file": "src/app/app.component.ts",
+      "line": 41,
+      "character": 25,
+      "text": "description",
+      "kind": 1
+    },
+    {
+      "file": "src/app/app.component.ts",
+      "line": 41,
+      "character": 55,
+      "text": "value",
+      "kind": 1
+    },
+    {
+      "file": "src/main.ts",
+      "line": 11,
+      "character": 9,
+      "text": "err",
+      "kind": 1
+    },
+    {
+      "file": "src/main.ts",
+      "line": 11,
+      "character": 30,
+      "text": "err",
+      "kind": 1
+    },
+    {
+      "file": "src/app/app.component.spec.ts",
+      "line": 27,
+      "character": 29,
+      "text": "nativeElement",
+      "kind": 1
+    }
+  ],
+  "percentage": 98.72262773722628,
+  "total": 548,
+  "covered": 541,
+  "uncovered": 7
+}

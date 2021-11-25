@@ -1,0 +1,32 @@
+<div class="container">
+  <form [formGroup]="itemForm" (ngSubmit)="onSubmit()">
+
+    <label for="">Nome: </label>
+    <div class="input">
+      <input id="name" type="text" pInputText formControlName="name" />
+    </div>
+    <label for="">Descrição: </label>
+    <div class="input">
+      <textarea id="description" pInputTextarea formControlName="description"></textarea>
+    </div>
+    <div class="input">
+      <label for="">Valor: </label>
+      <input id="value" pInputTextarea formControlName="value" />
+    </div>
+    <button id="submit" class="input" pButton type="button" type="submit" >{{ editing ? 'Editar Item' : 'Adicionar à lista' }}</button>
+  </form>
+
+  <div id="list">
+    <p-card class="item" *ngFor="let item of products" [header]="item.name">
+      <ng-template pTemplate="header">
+      </ng-template>
+      <p class="description">{{ item.description }}</p>
+      <h2>{{ item.price }}</h2>
+    
+    <div style="display: flex; justify-content: space-between;">
+      <button class="input" class="edit" pButton type="button" label="Editar" (click)="startEditing(item)" ></button>
+      <button class="input" class="remove" pButton type="button" label="Remover" (click)="remove(item)" ></button>
+    </div>
+    </p-card>
+  </div>
+</div>

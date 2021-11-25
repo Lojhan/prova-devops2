@@ -1,0 +1,31 @@
+.container {
+    background-color: rgb(241, 241, 241);
+    width: 60%;
+    margin-inline: auto;
+    padding: 10px;
+
+    .input {
+        margin-block: 10px;
+        width: 100%;
+
+        .p-inputtext {
+            width: 100%;
+        }
+
+    }
+
+    label {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+}
+
+.p-card {
+    margin-inline: auto !important;
+    width: 25rem;
+    margin-bottom: 2rem;
+
+    button {
+        width: 60%;
+    }
+}
